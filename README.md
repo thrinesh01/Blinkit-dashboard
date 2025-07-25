@@ -106,4 +106,4 @@ To deliver a comprehensive, visual decision-making tool that:<br>
 ---
 
 ### 6. Screenshots / Demos  
-![Dashboard Preview](https://github.com/thrinesh01/Blinkit-dashboard/blob/main/Power%20BI%20Desktop%2019-07-2025%2019_48_49.png)
+![Dashboard Preview](https://github.com/thrinesh01/Blinkit-dashboard/blob/main/Power%20BI%20Desktop%2025-07-2025%2022_21_33.png)
