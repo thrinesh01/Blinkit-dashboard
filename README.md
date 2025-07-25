@@ -1,76 +1,109 @@
-# Blinkit-dashboard
 
-🛒 Blinkit Grocery Analysis Dashboard
-A real-time Power BI dashboard to monitor grocery sales, outlet performance, item distribution, and customer ratings across various store types and locations.
+# 🛒 Blinkit Grocery Analysis Dashboard
 
-📌 Short Description / Purpose
-The Blinkit Dashboard is an insightful Power BI report designed to analyze grocery item performance across different outlet types, sizes, and locations. It helps uncover trends in sales, customer preferences, and inventory distribution, aiding retail managers, marketing teams, and data analysts in making data-driven decisions.
+## Recommended Structure and Order
 
-⚙️ Tech Stack
-The dashboard was created using the following tools and technologies:
-• 📊 Power BI Desktop – Primary platform for visual analytics and storytelling.
-• 🧹 Power Query – Used for cleaning, transforming, and shaping raw sales and item data.
-• 🧠 DAX (Data Analysis Expressions) – Applied for custom KPIs, average calculations, and visibility logic.
-• 🗃️ Data Modeling – Integrated tables (Item Info, Outlet Details, Sales Data) through relationships.
-• 📁 File Format – .pbit (Power BI template) and .xlsx for raw data source.
+### 1. Project Title / Headline  
+**🛒 Blinkit Grocery Insights: Outlet & Item Performance Dashboard**  
+A real-time, interactive data visualization dashboard to analyze grocery item sales, outlet performance, fat content distribution, and customer behavior across different store types and regions.
 
-📂 Data Source
-Source: Internal company data simulated for analysis (BlinkIT Grocery Data).
-Includes fields like:
-•	Item type, fat content, outlet type and size
-•	Tier-wise outlet locations (Tier 1, 2, 3)
-•	Sales amount, item count, average ratings
-•	Time-series establishment data (2012–2022)
+---
 
-🌟 Features / Highlights
-✅ Business Problem
-Blinkit handles thousands of SKUs across outlets of various sizes and regions. However, there is a need to analyze:
-•	What outlet size or type brings the highest sales?
-•	Which items are selling the most across locations?
-•	Which outlet types have better customer ratings or visibility?
-🎯 Goal of the Dashboard
-To build a dynamic grocery analysis dashboard that:
-•	Helps track total and average sales by item and outlet.
-•	Enables decision-makers to compare outlet tiers and types.
-•	Reveals insights into customer preferences and fat content sales.
-•	Assists in inventory planning and marketing focus.
-🔍 Walkthrough of Key Visuals
-•	KPI Cards (Top Center)
-o	Total Sales: $1.20M
-o	Number of Items: 8523
-o	Average Sales per Item: $141
-o	Average Rating: 4
-•	Outlet Establishment Trend (Line Chart)
-Displays yearly outlet establishment data from 2012 to 2022. Peak observed in 2018 with $0.20M sales.
-•	Outlet Size (Donut Chart)
-Compares performance by outlet size:
-o	Medium outlets lead with $444.79K
-o	Small outlets contribute $248.99K
-•	Outlet Location (Bar Chart)
-Breaks down total sales by tier:
-o	Tier 3 dominates with $472.13K
-o	Tier 2: $393.15K
-o	Tier 1: $336.40K
-•	Fat Content Sales (Donut + Bar Combo)
-o	Regular fat items: $776.32K
-o	Low-fat items: $425.36K
-o	Tier-wise comparison for fat content distribution
-•	Item Type Sales (Bar Chart)
-Top categories by total sales:
-o	Fruits & Vegetables: $0.18M
-o	Snack Foods: $0.18M
-o	Household Items, Frozen Foods, Dairy follow closely
-•	Outlet Performance Table (Matrix)
-Side-by-side comparison across outlet types:
-o	Grocery Store, Supermarket Type1, Type2, Type3
-o	Metrics include: Total Sales, No. of Items, Avg. Sales, Avg. Rating, and Item Visibility
+### 2. Short Description / Purpose  
+The Blinkit Dashboard is a visually intuitive Power BI report designed to monitor grocery retail data across outlets, items, and customer trends. It assists business teams in identifying high-performing outlets, managing inventory, and making region-specific decisions with confidence.
 
-📈 Business Impact & Insights
-•	Sales Targeting: Easily identify high-performing item categories and outlet locations for focused promotions.
-•	Customer Experience: Ratings provide a clue about quality and satisfaction trends by outlet.
-•	Stock Management: Inventory visibility and sales help streamline stocking across outlets.
-•	Expansion Planning: Tier 3 and medium outlets show potential for further development.
+---
 
-🖼️ Screenshots / Demo View
- 
+### 3. Tech Stack  
+The dashboard was built using the following tools and technologies:<br>
+• 📊 **Power BI Desktop** – Main platform for building and sharing the report.<br>
+• 📂 **Power Query** – Data cleansing and transformation tool for raw grocery data.<br>
+• 🧠 **DAX (Data Analysis Expressions)** – Used for KPIs, dynamic metrics, and conditional formatting.<br>
+• 🧩 **Data Modeling** – Table relationships (outlet, item, sales, and ratings) enable cross-filtering.<br>
+• 📁 **File Format** – `.pbit` for template sharing and `.xlsx` as the base data source.
 
+---
+
+### 4. Data Source  
+**Source**: Simulated Blinkit sales and outlet dataset (Excel-based internal format).  
+
+Data includes:  
+- Item types, fat content, sales volume, and visibility  
+- Outlet metadata (size, tier, location, type)  
+- Ratings, establishment trends (2012–2022)  
+- Average sales per item and outlet type
+
+---
+
+### 5. Features / Highlights
+
+#### • Business Problem  
+Blinkit manages a wide range of grocery SKUs across many outlet types and city tiers. However, identifying patterns in sales performance, outlet behavior, and product preferences was difficult due to scattered and unaggregated data.
+
+Key questions addressed:
+- Which tier or outlet type is most profitable?
+- Which item categories contribute most to sales?
+- How do fat content and ratings influence performance?
+
+---
+
+#### • Goal of the Dashboard  
+To deliver a comprehensive, visual decision-making tool that:<br>
+- Tracks item-level sales and outlet-level performance<br>
+- Supports decisions related to marketing, expansion, and stocking<br>
+- Compares outlets by location, size, and type<br>
+- Helps identify top-performing categories and customer behavior
+
+---
+
+#### • Walkthrough of Key Visuals  
+
+- **🔢 KPI Cards**  
+  - **Total Sales**: `$1.20M`  
+  - **Number of Items**: `8523`  
+  - **Avg Sales**: `$141`  
+  - **Avg Rating**: `4`
+
+- **📈 Outlet Establishment (Line Graph)**  
+  Sales and establishment growth over the years (2012–2022), peak in 2018 at $0.20M.
+
+- **🍩 Outlet Size Distribution (Donut Chart)**  
+  - Medium Outlets: `$444.79K`  
+  - Small Outlets: `$248.99K`
+
+- **📍 Outlet Location by Tier (Bar Chart)**  
+  - Tier 3: `$472.13K`  
+  - Tier 2: `$393.15K`  
+  - Tier 1: `$336.40K`
+
+- **🥛 Fat Content Analysis**  
+  - Regular: `$776.32K`  
+  - Low Fat: `$425.36K`  
+  Shown via donut chart and tier-wise bar chart
+
+- **📦 Item Type Analysis**  
+  Top selling categories include:  
+  - Fruits & Vegetables: `$0.18M`  
+  - Snacks: `$0.18M`  
+  - Household, Frozen, Dairy, etc.
+
+- **📋 Outlet Type Comparison (Matrix Table)**  
+  Compared on:  
+  - Total Sales  
+  - Item Count  
+  - Average Rating  
+  - Average Sales  
+  - Item Visibility
+
+---
+
+#### • Business Impact & Insights  
+- **Sales Optimization**: Identify top-performing outlets and item categories for promotions  
+- **Customer Experience**: Track rating trends across outlet types and sizes  
+- **Strategic Stocking**: Understand where and what to restock based on item-level sales  
+- **Expansion Planning**: Tier 3 and Medium outlets show high revenue potential
+
+---
+
+### 6. Screenshots / Demos  
+![Dashboard Preview](https://github.com/thrinesh01/Blinkit-dashboard/blob/main/Power%20BI%20Desktop%2019-07-2025%2019_48_49.png)
